@@ -21,7 +21,7 @@ public class TV {
 	public void setMarca(Marca marca){
 		this.marca = marca;
 	}
-	public Control getContro(){
+	public Control getControl(){
 		return control;
 	}
 	
