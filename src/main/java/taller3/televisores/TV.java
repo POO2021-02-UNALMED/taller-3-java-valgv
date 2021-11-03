@@ -62,10 +62,10 @@ public class TV {
 	public boolean getEstado(){
 		return this.estado;
 	}
-	public static int getnumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}	
-	static public void setnumTV(int num) {
+	static public void setNumTV(int num) {
 		numTV = num;
 	}
 	public void volumenUp(){
