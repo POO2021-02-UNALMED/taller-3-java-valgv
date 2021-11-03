@@ -4,7 +4,7 @@ public class Control {
 	private TV tv;
 	
 	public void turnOff() {
-		tv.turnOff(;)
+		tv.turnOff()
 	}
 	public void turnOn(){
 		tv.turnOn();
@@ -15,16 +15,16 @@ public class Control {
 	public void canalDown() {
 		tv.canalDown();
 	}	
-	public void volumeUp() {
-		tv.volumeUp();
+	public void volumenUp() {
+		tv.volumenUp();
 	}	
-	public void volumeDown() {
-		tv.volumeDown();
+	public void volumenDown() {
+		tv.volumenDown();
 	}	
 	public void setCanal(int canal) {
 		tv.setCanal(canal);
 	}
-	public enlazar(TV tv) {
+	public void enlazar(TV tv) {
 		this.tv = tv;
 		tv.setControl(this);
 	}
